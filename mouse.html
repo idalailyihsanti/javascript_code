@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p onmouseover="zoomin(this)" onmouseout="zoomout(this)">
+      Ini konten yang harus kita perhatikan</p>
+      <button onclick="gofoward()">
+      Go Foward</button>
+      <script type="text/javascript">
+        function zoomin(x){
+            x.style.fontSize = "20pt";
+            x.style.color = "red";
+        }
+        function zoomout(x){
+            x.style.fontSize = "14pt";
+            x.style.color = "pink";
+        }
+        function gofoward(){
+          window.history.forward();
+        }
+      </script>
+  </body>
+</html>

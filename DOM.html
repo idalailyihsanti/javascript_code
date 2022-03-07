@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar Javascript</title>
+  </head>
+  <body>
+    <input type="text" class="tugas" id="Belakang" value="Nama Belakang" />
+    <input type="text" class="tugas" id="Depan" value="Nama Depan" />
+    <input type="text" class="tugas" id="Password" value="Password" />
+    <button type="button" name="button" onclick="jalan()">Jalan</button>
+    <script type="text/javascript">
+      // function jalan(){
+      //   console.log(document.getElementById("Belakang"));
+      //   console.log(document.getElementById("Depan"));
+      //   console.log(document.getElementById("hobi"));
+      // }
+      function jalan(){
+        console.log(document.querySelectorAll(".tugas"));
+      }
+    </script>
+  </body>
+</html>

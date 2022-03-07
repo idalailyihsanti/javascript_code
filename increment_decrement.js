@@ -1,0 +1,21 @@
+var x = 1;
+console.log(x)
+x=x+2;
+console.log(x)
+x=x+3;
+console.log(x)
+x=x+4;
+console.log(x)
+x=x+5;
+console.log(x)
+x=x+6;
+console.log(x)
+x=x+7;
+console.log(x)
+x=x+8;
+console.log(x)
+x=x+9;
+console.log(x)
+x=x+10;
+console.log(x)
+x=x+11;
